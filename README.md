@@ -9,13 +9,13 @@ This project is a Kubernetes-based microservices demo application for Best Buy, 
 
 ## 📐 Architecture Overview
 
-![Architecture](1C8E915D-1D16-42E0-820E-0171F442CF40.png)
+![Architecture](public/a.png.png)
 
 ### Core Features
 
 - 🧾 Customer orders go through `store-front` ➝ `order-service` ➝ Azure Service Bus
 - 🏭 Employees manage orders through `store-admin` ➝ `makeline-service`
-- 🤖 `ai-service` integrates GPT-4 and DALL·E for smart description and image generation（not stable)
+- 🤖 `ai-service` integrates GPT-4 and DALL·E for smart description and image generation
 - 🧊 All order data is stored in MongoDB
 - 🐳 All services are Dockerized and pushed to Docker Hub
 - ⚙️ GitHub Actions handles **CI/CD pipeline** with build, test, release, and deploy
@@ -76,7 +76,7 @@ Each repo contains:
 
 ## 📁 Project Structure
 
-my root project directory includes:
+Your root project directory includes:
 
 ```
 .
@@ -95,6 +95,22 @@ my root project directory includes:
 ```
 
 ---
+
+
+---
+
+## 📡 Kubernetes Status
+
+Current deployment is running in **Azure Kubernetes Service (AKS)**.
+
+### 🧩 Services
+
+![kubectl get services](public/services.png)
+
+### 📦 Pods
+
+![kubectl get pods](public/pod.png)
+
 
 ## 🛠️ Quick Start
 
@@ -126,3 +142,4 @@ kubectl apply -f config-maps.yaml             # Configurations
 ## 👨‍💻 Author
 
 Shaoxian Duan  
+Algonquin college
