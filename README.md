@@ -76,7 +76,7 @@ Each repo contains:
 
 ## 📁 Project Structure
 
-Your root project directory includes:
+My root project directory includes:
 
 ```
 .
