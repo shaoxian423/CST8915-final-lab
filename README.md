@@ -37,7 +37,7 @@ This project is a Kubernetes-based microservices demo application for Best Buy, 
 
 ## 🚀 Demo
 
-[![Demo](https://www.youtube.com/watch?v=BZXKxQd015Q)]
+🎬 Watch the full demo on YouTube: [https://www.youtube.com/watch?v=BZXKxQd015Q](https://www.youtube.com/watch?v=BZXKxQd015Q)
 
 🎥 **In this demo**:
 - Customers place orders via the front-end
