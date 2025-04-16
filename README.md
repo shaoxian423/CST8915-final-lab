@@ -9,7 +9,7 @@ This project is a Kubernetes-based microservices demo application for Best Buy, 
 
 ## 📐 Architecture Overview
 
-![Architecture](public/a.png.png)
+![Architecture](public/a.png)
 
 ### Core Features
 
@@ -37,7 +37,7 @@ This project is a Kubernetes-based microservices demo application for Best Buy, 
 
 ## 🚀 Demo
 
-[![Demo](https://github.com/RyanRen2023/bestbuy-on-steroids/assets/122996148/13d5adfa-621e-4932-9790-0f0c7ce1aaef)](https://github.com/RyanRen2023/bestbuy-on-steroids/assets/122996148/13d5adfa-621e-4932-9790-0f0c7ce1aaef)
+[![Demo](https://www.youtube.com/watch?v=BZXKxQd015Q)
 
 🎥 **In this demo**:
 - Customers place orders via the front-end
@@ -55,7 +55,7 @@ Every service repo includes a `.github/workflows/ci_cd.yaml` file that:
 - ✅ Runs tests
 - ✅ Pushes image to Docker Hub (`41123100/{service-name}-l9`)
 - ✅ Deploys to Kubernetes using `KUBE_CONFIG_DATA`
-
+![Architecture](public/cd.png)
 ### ✅ Secrets & Variables
 
 Each repo contains:
