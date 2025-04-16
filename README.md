@@ -53,7 +53,7 @@ Every service repo includes a `.github/workflows/ci_cd.yaml` file that:
 
 - ✅ Builds Docker image
 - ✅ Runs tests
-- ✅ Pushes image to Docker Hub (`41123100/{service-name}-l9`)
+- ✅ Pushes image to Docker Hub (`41123100/order-service-l9`)
 - ✅ Deploys to Kubernetes using `KUBE_CONFIG_DATA`
 ![Architecture](public/cd.png)
 ### ✅ Secrets & Variables
